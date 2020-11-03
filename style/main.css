@@ -153,7 +153,6 @@ select{
 }
 
 @media only screen and (max-width:768px) {
-    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
     body{
         background-color:  #ffffff;
         color: #f5f5f5;
@@ -167,7 +166,7 @@ select{
     .left{
         background-color: #B4D4E3;
         float: left;
-        width: 10%;
+        width: 20%;
         box-sizing: border-box;
         height: 657px;
         margin: auto;
@@ -179,13 +178,13 @@ select{
     }
     
     #orbit{
-        margin-bottom: 300px;
+        margin-bottom: 180%;
     }
     
     .right{
         background-color:  #0392BF;
         float: right;
-        width: 90%;
+        width: 80%;
         height: 657px;
         margin: auto;
         overflow: hidden;
@@ -200,7 +199,7 @@ select{
     }
     
     #nav-bar li{
-        /* display: inline;  */
+        display: inline; 
     }
     
     #nav-bar a{
@@ -220,13 +219,14 @@ select{
     }
     .c-left{
         float: top;
-        width: 50%;
+        height: 40%;
         box-sizing: border-box;
     }
     .c-right{
         margin-top: 15px;
+        margin-left: 15px;
         float: bottom;
-        width: 50%;
+        height: 60%;
         box-sizing: border-box;
     }
     h4{
@@ -270,22 +270,16 @@ select{
     
     .inner{
         margin-top: 5px;
-        margin-left: 14px;
+        margin-left: 15px;
     }
     #speedy{
         font-size: 15px; 
         letter-spacing: 5px;
-        position: absolute;
-        bottom: 405px;
-        left: 140px;
     }
     
     #quads{
         font-size: 15px; 
         letter-spacing: 5px;
-        position: absolute;
-        bottom: 390px;
-        left: 160px;
     }
     #small{
         font-size: 8px;
@@ -310,6 +304,4 @@ select{
         border: none;
         outline: none;
     }
-    
-
   }
