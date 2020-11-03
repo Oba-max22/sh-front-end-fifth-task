@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Task Four</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/main.css">
+        <script src="script.js" async defer></script>
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+   </head>
+    <body>
+        <div class="main" >
+            <div class="left" id="sidebar">
+                <aside class="sidebar">
+                    <ul>
+                        <li id="orbit"><a href="index.html"><span class="iconify" data-inline="false" data-icon="whh:moonorbit" style="color: #e75480; width:40px; height: 40px;"></span></a></li>
+                        <li><a href="https://facebook.com"><span class="iconify" data-inline="false" data-icon="bx:bxl-facebook" style="color: grey; width:40px; height: 20px;"></span></a></li>
+                        <li><a href="https://instagram.com"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-filled" style="color: grey; width:40px; height: 20px;"></span></a></li>
+                        <li><a href="https://twitter.com"><span class="iconify" data-inline="false" data-icon="bx:bxl-twitter" style="color: grey; width:40px; height: 20px;"></span></a></li>
+                    </ul>
+                </aside>
+            </div> 
+            <div class="right" id="container">
+                <div class="c-left">
+                    <header id="main-header">
+                        <nav id="nav-bar"> 
+                            <ul>
+                                <li><a href="#">Adult</a></li>
+                                <li><a href="#">Childish</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                                <li><a href="#">Special Offers</a></li>
+                                <li><a href="#">About Us</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <div class="inner">
+                        <img src="images/skate_crop.png" alt="roller skate" >
+                        <h1 id="speedy">SPEEDY</h1>   
+                        <h1 id="quads">QUADS</h1>   
+                    </div>
+                </div>
+                <div class="c-right">
+                    <div>
+                        <a href="" id="cart"><span class="iconify" data-inline="false" data-icon="ic:round-shopping-cart" style="color: #ffffff;"></span></a>
+                        <h4><strong id="strong">РОЛИКИ SPEEDY QUADS</strong>          
+                            <span id="star"class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #FFD700;"></span>
+                            <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #FFD700;"></span>
+                            <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #FFD700;"></span>
+                            <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #FFD700;"></span>
+                            <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #FFD700;"></span>
+                        </h4>
+                        <p id="small">SBI-595-00</p>
+                        <p><strong>3,500 rubles.</strong></p>
+                    </div>
+                    <p>4-wheel casters are ideal for beginners, as
+                        they have more <br> 
+                        stability thanks to four wheels.
+                        Retro style in a modern<br>
+                        design will not leave you indifferent
+                        for both children and adults,<br>
+                        SPEED QUADS Rollers have an anatomical design with<br>
+                        a sealing coating for maximum comfort.<br>
+                        <a href="index.html">More details</a>
+                    </p>
+                    <div>
+                        <label for="">COLOR:</label>
+                        <input type="button" name="blue-bg" class="button blue-bg" onclick="changeBg('#0392BF', '#B4D4E3');">
+                        <input type="button" name="pink-bg" class="button pink-bg" onclick="changeBg('pink','#B4D4E3');">
+                        <input type="button" name="yellow-bg" class="button yellow-bg" onclick="changeBg('#FBEC06','#B4D4E3');">
+                        <input type="button" name="grey-bg" class="button grey-bg" onclick="changeBg('#B3D4E0','#B4D4E3');">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">SIZE:</label>
+                        <select name="size" id="select">
+                            <option value="choose">choose : </option>
+                            <option value="small">small</option>
+                            <option value="medium">medium</option> 
+                            <option value="large">large</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                    <br>
+                    <button name="Add_to_cart" class="add_button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
