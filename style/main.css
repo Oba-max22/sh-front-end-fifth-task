@@ -152,44 +152,43 @@ select{
     outline: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
     /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
     body{
-        max-height:100vh;
         background-color:  #ffffff;
         color: #f5f5f5;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
+        font-size: 8px;
         line-height: 1.6em;
         margin: 0%;
     }
+
     
     .left{
         background-color: #B4D4E3;
-        float: bottom;
-        height: 5%;
+        float: left;
+        width: 10%;
         box-sizing: border-box;
-        /* height: 657px; */
+        height: 657px;
         margin: auto;
     }
     
     .sidebar ul{
         padding: 10px;
-        display: inline;
         list-style: none;
     }
     
     #orbit{
-        margin-right: 60px;
+        margin-bottom: 300px;
     }
     
     .right{
         background-color:  #0392BF;
-        float: top;
-        height: 95%;
-        /* height: 657px; */
+        float: right;
+        width: 90%;
+        height: 657px;
         margin: auto;
-        /* overflow: hidden; */
+        overflow: hidden;
         box-sizing: border-box;
     
     }
@@ -201,23 +200,25 @@ select{
     }
     
     #nav-bar li{
-        display: inline; 
+        /* display: inline;  */
     }
     
     #nav-bar a{
         color: #f5f5f5;
-        font-size: 14px;
+        font-size: 8px;
         text-decoration: none;
         padding-right: 15px;
+    }
+
+    #skate{
+        width:150px;
+        height: 150px;
     }
     
     #cart{
         margin-left: 5px;
-    
     }
-    
     .c-left{
-        
         float: top;
         width: 50%;
         box-sizing: border-box;
@@ -230,11 +231,11 @@ select{
     }
     h4{
         margin-top: 8px;
-        word-spacing: 10px;
-        padding-right: 15px;
+        word-spacing: 1px;
+        padding-right: 1.5px;
     }
     #strong{
-        font-size: 25px;
+        font-size: 12px;
     }
     #star{
         margin-left: 2px;
@@ -245,10 +246,10 @@ select{
     
     .button{
         border: none;
-        padding: 20px;
+        padding: 10px;
         display: inline-block;
-        height: 16px;
-        margin: 4px 2px;
+        height: 8px;
+        margin: 1px 1px;
     }
     .blue-bg{
         background-color: #0392BF;
@@ -268,46 +269,47 @@ select{
     }
     
     .inner{
-        margin-top: 5.5px;
-        margin-left: 14.0px;
+        margin-top: 5px;
+        margin-left: 14px;
     }
     #speedy{
-        font-size: 5.5px; 
+        font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        bottom: 16.5px;
-        left: 12.0px;
+        bottom: 405px;
+        left: 140px;
     }
     
     #quads{
-        font-size: 5.5px; 
+        font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        bottom: 12.0px;
-        left: 18.0px;
+        bottom: 390px;
+        left: 160px;
     }
     #small{
-        font-size: 14px;
+        font-size: 8px;
     }
     
     select{
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 10px;
-        width: 26.0px;
+        width: 130px;
         background-color: #ED48BA;
         color: #f5f5f5;
-        border: 2px solid #f5f5f5;
+        border: 1px solid #f5f5f5;
         outline: none;
     }
     
     .add_button{
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 10px;
-        width: 26.0px;
+        width: 130px;
         background-color: #ED48BA;
         color: #f5f5f5;
         border: none;
         outline: none;
     }
-   
+    
+
   }
