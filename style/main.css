@@ -235,6 +235,7 @@ select{
     }
     h4{
         margin-top: 8px;
+        margin-left: 15px;
         word-spacing: 1px;
         padding-right: 1.5px;
     }
@@ -245,7 +246,8 @@ select{
         margin-left: 2px;
     }
     p{
-        text-align: left;
+        margin-left: 15px;
+        text-align: center;
     }
     
     .button{
@@ -254,6 +256,7 @@ select{
         display: inline-block;
         height: 8px;
         margin: 1px 1px;
+        margin-left: 25px;
     }
     .blue-bg{
         background-color: #0392BF;
@@ -276,20 +279,20 @@ select{
         margin-top: 5px;
         margin-left: 15px;
     }
-     #speedy{
+    #speedy{
         font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        left: 150px;
-        bottom: 440px;
+        left: 110px;
+        bottom: 420px;
     }
     
     #quads{
         font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        left: 160px;
-        bottom: 425px;
+        left: 120px;
+        bottom: 405px;
     }
     #small{
         font-size: 8px;
@@ -297,6 +300,7 @@ select{
     
     select{
         margin-top: 10px;
+        margin-left: 25px;
         padding: 10px;
         width: 130px;
         background-color: #ED48BA;
@@ -307,6 +311,7 @@ select{
     
     .add_button{
         margin-top: 10px;
+        margin-left: 25px;
         padding: 10px;
         width: 130px;
         background-color: #ED48BA;
