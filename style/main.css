@@ -276,19 +276,20 @@ select{
         margin-top: 5px;
         margin-left: 15px;
     }
-    #speedy{
+     #speedy{
         font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        left: 240;
+        left: 280px;
+        bottom: 460px;
     }
     
     #quads{
         font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        margin-top: 30px;
-        left: 200;
+        left: 310px;
+        bottom: 445px;
     }
     #small{
         font-size: 8px;
