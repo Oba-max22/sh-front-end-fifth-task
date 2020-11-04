@@ -280,16 +280,16 @@ select{
         font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        left: 280px;
-        bottom: 460px;
+        left: 150px;
+        bottom: 440px;
     }
     
     #quads{
         font-size: 15px; 
         letter-spacing: 5px;
         position: absolute;
-        left: 310px;
-        bottom: 445px;
+        left: 160px;
+        bottom: 425px;
     }
     #small{
         font-size: 8px;
